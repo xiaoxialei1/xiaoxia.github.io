@@ -2,15 +2,26 @@
 ---
 
 
-@import "jekyll-theme-minimal";
-
 // /* 电脑端默认样式 (大屏幕) */
 // body {
 //   // 你的 PC 端专属样式
 // }
 
+
+
 /* 手机端样式 (屏幕宽度小于等于 768px 时生效) */
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 2000px) {
+  
+  body {
+    @import "jekyll-theme-minimal";
+  }
+
+}
+
+
+
+/* 手机端样式 (屏幕宽度小于等于 768px 时生效) */
+@media screen and (max-width: 2000px) {
   
   img, table, pre, code {
     max-width: 50%;
