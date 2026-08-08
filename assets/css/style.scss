@@ -4,14 +4,16 @@
 
 // /* 电脑端默认样式 (大屏幕) */
 @media screen and (min-width: 1000px) {
-
-  img, table, pre, code {
-    @import "jekyll-theme-minimal";
-  }
   
-  body {
-    @import "jekyll-theme-minimal";
-  }
+  @import "jekyll-theme-minimal";
+  
+  // img, table, pre, code {
+  //   @import "jekyll-theme-minimal";
+  // }
+  
+  // body {
+  //   @import "jekyll-theme-minimal";
+  // }
 
 }
 
