@@ -11,20 +11,18 @@
 
 /* 手机端样式 (屏幕宽度小于等于 768px 时生效) */
 @media screen and (max-width: 1000px) {
-  body {
-
-img, table, pre, code {
-  max-width: 50%;
-  box-sizing: border-box;
-  word-break: break-all;
-  word-wrap: break-word;
-}
-
-body {
-  overflow-x: hidden;
-}
-    
+  
+  img, table, pre, code {
+    max-width: 50%;
+    box-sizing: border-box;
+    word-break: break-all;
+    word-wrap: break-word;
   }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
 }
 
 
