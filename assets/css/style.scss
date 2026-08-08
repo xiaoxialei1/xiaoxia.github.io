@@ -1,7 +1,17 @@
 ---
 ---
 
-// @import "jekyll-theme-minimal";
+
+@import "jekyll-theme-minimal";
+
+// /* 电脑端默认样式 (大屏幕) */
+// body {
+//   // 你的 PC 端专属样式
+// }
+
+/* 手机端样式 (屏幕宽度小于等于 768px 时生效) */
+@media screen and (max-width: 1000px) {
+  body {
 
 img, table, pre, code {
   max-width: 50%;
@@ -13,3 +23,20 @@ img, table, pre, code {
 body {
   overflow-x: hidden;
 }
+    
+  }
+}
+
+
+// // @import "jekyll-theme-minimal";
+
+// img, table, pre, code {
+//   max-width: 50%;
+//   box-sizing: border-box;
+//   word-break: break-all;
+//   word-wrap: break-word;
+// }
+
+// body {
+//   overflow-x: hidden;
+// }
