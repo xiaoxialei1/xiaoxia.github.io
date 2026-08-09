@@ -37,28 +37,35 @@
 @media screen and (min-width: 1000px) and (max-width: 1100px) {
 
   @import "jekyll-theme-minimal";
+
+  body > *:not(section) {
+    display: none !important;
+  }
+
+
   
   // .wrapper { display: none; }
 
-  .wrapper .site-title {
-    display: none;
-  }
   
-  .wrapper .site.logo {
-    display: none;
-  }
+  // .wrapper .site-title {
+  //   display: none;
+  // }
   
-  .wrapper dl {
-    display: none;
-  }
+  // .wrapper .site.logo {
+  //   display: none;
+  // }
   
-  .wrapper img {
-    display: none;
-  }
+  // .wrapper dl {
+  //   display: none;
+  // }
+  
+  // .wrapper img {
+  //   display: none;
+  // }
 
-  [title] {
-    display: none;
-  }
+  // [title] {
+  //   display: none;
+  // }
   
 }
 
