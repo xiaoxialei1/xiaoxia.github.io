@@ -88,7 +88,7 @@ layout: default
 
 <p><br></p>
 
-<p>Copyright © 2023-2026 Xiaoxia Lei. All Rights Reserved</p>
+<p>Copyright © 2023-2026 Xiaoxia Lei. All Rights Reserved | Contact: dr.xiaoxia.lei@gmail.com </p>
 
 
 
