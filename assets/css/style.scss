@@ -114,6 +114,11 @@
     word-break: break-word;
     overflow-wrap: break-word;
     overflow-x: auto; /* Stops horizontal overflow */
+
+    text-align: left; /* Removes uneven gaps from justify */
+    hyphens: auto;
+    word-spacing: normal;
+    
   }
   
   /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
@@ -130,9 +135,21 @@
     display: block;
   }
   
-  body {
+  html, body {
     overflow-x: auto;
     text-align: left;
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    // -webkit-text-size-adjust: 100%; /* Prevents iOS Chrome text autosizing */
+    // text-size-adjust: 100%;
+    
+    letter-spacing: normal;
+    
+    -webkit-text-size-adjust: 100%; /* Prevents iOS font boosting */
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased; /* Smooths uneven glyph weights */
+    text-rendering: optimizeLegibility;
+    
   }
   
 }
