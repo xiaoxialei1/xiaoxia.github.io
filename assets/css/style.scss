@@ -55,25 +55,25 @@
   
 
   
-  .wrapper header {
-    display: none;
-  }
+  // .wrapper header {
+  //   display: none;
+  // }
   
-  .wrapper .site-title {
-    display: none;
-  }
+  // .wrapper .site-title {
+  //   display: none;
+  // }
   
-  .wrapper .site.logo {
-    display: none;
-  }
+  // .wrapper .site.logo {
+  //   display: none;
+  // }
   
-  .wrapper dl {
-    display: none;
-  }
+  // .wrapper dl {
+  //   display: none;
+  // }
   
-  .wrapper img {
-    display: none;
-  }
+  // .wrapper img {
+  //   display: none;
+  // }
 
 
   
@@ -93,45 +93,45 @@
 /* 手机端样式 (屏幕宽度小于等于 900px 时生效) */
 @media screen and (max-width: 1000px) {
   
-  @import "jekyll-theme-minimal";
+  // @import "jekyll-theme-minimal";
 
-  // /* Apply border-box sizing globally */
-  // html {
-  //   box-sizing: border-box;
-  //   overflow-x: auto; /* Stops horizontal overflow */
-  // }
+  /* Apply border-box sizing globally */
+  html {
+    box-sizing: border-box;
+    overflow-x: auto; /* Stops horizontal overflow */
+  }
   
-  // /* 限制所有图片、视频和表格最大宽度，防止撑破边界 */
-  // img, video, table {
-  //   max-width: 100%;
-  //   box-sizing: border-box;
-  //   overflow-x: auto; /* Stops horizontal overflow */
-  // }
+  /* 限制所有图片、视频和表格最大宽度，防止撑破边界 */
+  img, video, table {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: auto; /* Stops horizontal overflow */
+  }
   
-  // /* 允许长单词或连续英文/链接自动换行 */
-  // p, li, blockquote {
-  //   word-break: break-word;
-  //   overflow-wrap: break-word;
-  //   overflow-x: auto; /* Stops horizontal overflow */
-  // }
+  /* 允许长单词或连续英文/链接自动换行 */
+  p, li, blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    overflow-x: auto; /* Stops horizontal overflow */
+  }
   
-  // /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
-  // pre, code {
-  //   max-width: 100%;
-  //   overflow-x: auto;
-  //   white-space: pre-wrap;
-  //   word-wrap: break-word;
-  // }
+  /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
+  pre, code {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
   
-  // /* 表格支持滚动 */
-  // div.table-wrapper, table {
-  //   overflow-x: auto;
-  //   display: block;
-  // }
+  /* 表格支持滚动 */
+  div.table-wrapper, table {
+    overflow-x: auto;
+    display: block;
+  }
   
-  // body {
-  //   overflow-x: auto;
-  // }
+  body {
+    overflow-x: auto;
+  }
   
 }
 
