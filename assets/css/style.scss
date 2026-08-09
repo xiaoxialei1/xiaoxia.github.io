@@ -84,7 +84,9 @@
 
   body {
     transform: translateX(-360px); /* 向左移动 50px */
-    margin-right: -200px
+    position: relative;
+    left: -360px; /* 你的左移距离 */
+    width: calc(100% + 360px); /* 补回宽度或改为 auto */  
   }
 
 }
