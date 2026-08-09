@@ -1,14 +1,74 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+/* 电脑端默认样式 (大屏幕) */
+@media screen and (min-width: 1900px) {
+  
+  @import "jekyll-theme-minimal";
+  
+  // img, table, pre, code {
+  //   @import "jekyll-theme-minimal";
+  // }
+  
+  // body {
+  //   @import "jekyll-theme-minimal";
+  // }
 
-/* Apply border-box sizing globally */
-html {
-  box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+
+
+/* iPad默认样式 (中屏幕) */
+@media screen and (min-width: 760px) and (max-width: 1900px) {
+
+  @import "jekyll-theme-minimal";
+
+  /* Apply border-box sizing globally */
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 }
+  
+
+
+/* 手机端样式 (屏幕宽度小于等于 760px 时生效) */
+@media screen and (max-width: 760px) {
+  
+  /* 限制所有图片、视频和表格最大宽度，防止撑破边界 */
+  img, video, table {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* 允许长单词或连续英文/链接自动换行 */
+  p, li, blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
+  pre, code {
+    max-width: 100%;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* 表格支持滚动 */
+  div.table-wrapper, table {
+    overflow-x: hidden;
+    display: block;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+}
+
 
