@@ -19,7 +19,7 @@
 
 
 /* iPad默认样式 (中屏幕) */
-@media screen and (min-width: 760px) and (max-width: 1200px) {
+@media screen and (min-width: 900px) and (max-width: 1200px) {
 
   @import "jekyll-theme-minimal";
 
@@ -33,8 +33,8 @@
   
 
 
-/* 手机端样式 (屏幕宽度小于等于 760px 时生效) */
-@media screen and (max-width: 760px) {
+/* 手机端样式 (屏幕宽度小于等于 900px 时生效) */
+@media screen and (max-width: 900px) {
   
   // @import "jekyll-theme-minimal";
 
