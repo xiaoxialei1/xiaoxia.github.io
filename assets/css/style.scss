@@ -38,8 +38,24 @@
 
   @import "jekyll-theme-minimal";
   
-  .wrapper { display: none; }
+  // .wrapper { display: none; }
 
+  .wrapper .site-title {
+    display: none;
+  }
+  
+  .wrapper .site.logo {
+    display: none;
+  }
+  
+  .wrapper dl {
+    display: none;
+  }
+  
+  .wrapper img {
+    display: none;
+  }
+  
 }
 
 
