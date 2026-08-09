@@ -75,8 +75,12 @@
   }
 
 
-  .wrapper section {
-    transform: translateX(-500px); /* 往左移动 50px */
+  // .wrapper section {
+  //   transform: translateX(-300px); /* 往左移动 50px */
+  // }
+
+  body {
+    transform: translateX(-300px); /* 向左移动 50px */
   }
 
   
