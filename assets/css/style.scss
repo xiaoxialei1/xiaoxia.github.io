@@ -61,7 +61,7 @@
   
   .wrapper .site-title {
     // display: none;
-    transform: translateX(+720px); /* 向左移动 50px */
+    margin-right: 720px; /* 通过外边距向右移动 */
   }
   
   // .wrapper .site.logo {
