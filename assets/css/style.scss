@@ -84,9 +84,7 @@
 
   body {
     transform: translateX(-360px); /* 向左移动 50px */
-    overflow-x: hidden;
-    width: 100%; 
-    box-sizing: border-box;
+    margin-right: -200px
   }
 
 }
