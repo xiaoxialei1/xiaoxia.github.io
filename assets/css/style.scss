@@ -44,13 +44,19 @@
 
   // .wrapper { display: none; }
 
+  // /* 隐藏 title 元素并释放其占用的空间 */
+  // .config-title, [data-key="title"], .title-element {
+  //   display: none;
+  // }
 
-  /* 隐藏 title 元素并释放其占用的空间 */
-  .config-title, [data-key="title"], .title-element {
+  // .site-title {
+  //   display: none;
+  // }
+
+  .wrapper hl {
     display: none;
   }
-
-
+  
   .wrapper .site-title {
     display: none;
   }
