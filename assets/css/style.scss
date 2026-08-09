@@ -52,11 +52,6 @@
   // .site-title {
   //   display: none;
   // }
-
-
-  body {
-    transform: translateX(-50px);
-  }
   
   
   .wrapper header {
@@ -78,6 +73,12 @@
   .wrapper img {
     display: none;
   }
+
+
+  .wrapper section {
+    transform: translateX(-50px); /* 往左移动 50px */
+  }
+
   
 }
 
