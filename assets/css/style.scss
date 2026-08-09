@@ -59,9 +59,10 @@
   //   display: none;
   // }
   
-  // .wrapper .site-title {
-  //   display: none;
-  // }
+  .wrapper .site-title {
+    // display: none;
+    transform: translateX(+720px); /* 向左移动 50px */
+  }
   
   // .wrapper .site.logo {
   //   display: none;
