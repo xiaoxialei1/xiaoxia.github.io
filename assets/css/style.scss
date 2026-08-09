@@ -21,7 +21,7 @@
 /* iPad默认样式 (中屏幕) */
 @media screen and (min-width: 760px) and (max-width: 1200px) {
 
-  // @import "jekyll-theme-minimal";
+  @import "jekyll-theme-minimal";
 
   /* Apply border-box sizing globally */
   html {
