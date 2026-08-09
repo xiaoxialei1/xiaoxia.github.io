@@ -19,7 +19,7 @@
 
 
 /* iPad默认样式 (中屏幕) */
-@media screen and (min-width: 900px) and (max-width: 1200px) {
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
 
   @import "jekyll-theme-minimal";
 
@@ -31,6 +31,17 @@
 
 }
   
+
+
+/* iPad默认样式 (中屏幕) */
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+
+  @import "jekyll-theme-minimal";
+  
+  .wrapper { display: none; }
+
+}
+
 
 
 /* 手机端样式 (屏幕宽度小于等于 900px 时生效) */
