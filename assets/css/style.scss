@@ -23,11 +23,11 @@
 
   @import "jekyll-theme-minimal";
 
-  /* Apply border-box sizing globally */
-  html {
-    box-sizing: border-box;
-    overflow-x: hidden; /* Stops horizontal overflow */
-  }
+  // /* Apply border-box sizing globally */
+  // html {
+  //   box-sizing: border-box;
+  //   overflow-x: auto; /* Stops horizontal overflow */
+  // }
 
   // .wrapper {
   //   max-width: 80%;
@@ -45,32 +45,32 @@
   img, video, table {
     max-width: 100%;
     box-sizing: border-box;
-    overflow-x: hidden; /* Stops horizontal overflow */
+    overflow-x: auto; /* Stops horizontal overflow */
   }
   
   /* 允许长单词或连续英文/链接自动换行 */
   p, li, blockquote {
     word-break: break-word;
     overflow-wrap: break-word;
-    overflow-x: hidden; /* Stops horizontal overflow */
+    overflow-x: auto; /* Stops horizontal overflow */
   }
   
   /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
   pre, code {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow-x: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
   }
   
   /* 表格支持滚动 */
   div.table-wrapper, table {
-    overflow-x: hidden;
+    overflow-x: auto;
     display: block;
   }
   
   body {
-    overflow-x: hidden;
+    overflow-x: auto;
   }
   
 }
