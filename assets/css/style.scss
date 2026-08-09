@@ -2,7 +2,7 @@
 ---
 
 /* 电脑端默认样式 (大屏幕) */
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1400px) {
   
   @import "jekyll-theme-minimal";
   
@@ -19,7 +19,7 @@
 
 
 /* iPad默认样式 (中屏幕) */
-@media screen and (min-width: 760px) and (max-width: 1900px) {
+@media screen and (min-width: 760px) and (max-width: 1400px) {
 
   @import "jekyll-theme-minimal";
 
@@ -72,3 +72,9 @@
 }
 
 
+
+// 设备类型 物理分辨率 (Physical px) CSS逻辑分辨率/视口 (Logical px) 像素比 (DPR)
+// 主流笔记本/PC 1366 × 768 / 1920 × 1080 1366 × 768 / 1920 × 1080 1
+// 标准 iPad (9.7/10.2寸) 2048 × 1536 1024 × 768 2
+// iPad Pro (11寸) 2388 × 1668 1194 × 834 2
+// iPad Pro (12.9寸) 2732 × 2048 1366 × 1024 2
