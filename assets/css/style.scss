@@ -45,10 +45,11 @@
   // .wrapper { display: none; }
 
 
-  .config-title, 
-  [class*="config"][class*="title"] {
-    display: none;
+  /* 隐藏 title 元素并释放其占用的空间 */
+  .config-title, [data-key="title"], .title-element {
+    display: none !important;
   }
+
 
   .wrapper .site-title {
     display: none;
