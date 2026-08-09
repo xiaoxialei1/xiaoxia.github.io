@@ -26,6 +26,7 @@
   /* Apply border-box sizing globally */
   html {
     box-sizing: border-box;
+    overflow-x: hidden; /* Stops horizontal overflow */
   }
 
   *, *:before, *:after {
@@ -43,12 +44,14 @@
   img, video, table {
     max-width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden; /* Stops horizontal overflow */
   }
   
   /* 允许长单词或连续英文/链接自动换行 */
   p, li, blockquote {
     word-break: break-word;
     overflow-wrap: break-word;
+    overflow-x: hidden; /* Stops horizontal overflow */
   }
   
   /* 代码块超出时允许在 iPad 上滑动浏览而不是溢出 */
