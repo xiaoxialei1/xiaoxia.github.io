@@ -38,34 +38,33 @@
 
   @import "jekyll-theme-minimal";
 
-  body > *:not(section) {
-    display: none !important;
-  }
+  // body > *:not(section) {
+  //   display: none !important;
+  // }
 
-
-  
   // .wrapper { display: none; }
 
-  
-  // .wrapper .site-title {
-  //   display: none;
-  // }
-  
-  // .wrapper .site.logo {
-  //   display: none;
-  // }
-  
-  // .wrapper dl {
-  //   display: none;
-  // }
-  
-  // .wrapper img {
-  //   display: none;
-  // }
 
-  // [title] {
-  //   display: none;
-  // }
+  .config-title, 
+  [class*="config"][class*="title"] {
+    display: none;
+  }
+
+  .wrapper .site-title {
+    display: none;
+  }
+  
+  .wrapper .site.logo {
+    display: none;
+  }
+  
+  .wrapper dl {
+    display: none;
+  }
+  
+  .wrapper img {
+    display: none;
+  }
   
 }
 
