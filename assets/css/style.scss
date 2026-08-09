@@ -83,9 +83,12 @@
   // }
 
   body {
-    transform: translateX(-360px); /* 向左移动 50px */
+    // transform: translateX(-360px); /* 向左移动 50px */
+    margin-left: -360px
+
+    
     // width: 100%;
-    margin-right: -200px;
+    // margin-right: -200px;
     // padding: 0;
     // overflow-x: hidden; /* 彻底删除右侧溢出的空白 */
     
