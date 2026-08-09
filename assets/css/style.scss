@@ -85,7 +85,8 @@
   body {
     transform: translateX(-360px); /* 向左移动 50px */
     overflow-x: hidden;
-    touch-action: pan-y;
+    width: 100%; 
+    box-sizing: border-box;
   }
 
 }
