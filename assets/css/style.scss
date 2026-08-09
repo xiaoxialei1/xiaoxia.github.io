@@ -85,13 +85,13 @@
   body {
     transform: translateX(-360px); /* 向左移动 50px */
     // width: 100%;
-    margin: 0;
+    // margin: 0;
     padding: 0;
     // overflow-x: hidden; /* 彻底删除右侧溢出的空白 */
     
     // position: relative;
     // left: -360px; /* 你的左移距离 */
-    width: calc(100% + 360px); /* 补回宽度或改为 auto */  
+    // width: calc(100% + 360px); /* 补回宽度或改为 auto */  
   }
 
 }
